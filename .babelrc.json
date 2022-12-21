@@ -1,0 +1,13 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "useBuiltIns": "usage",
+      "corejs": 3,
+      "shippedProposals": true
+    }],
+    "@babel/preset-react",
+    "@babel/plugin-transform-react-jsx-self",
+    "@babel/plugin-transform-react-jsx-source",
+    "@babel/preset-typescript"
+  ]
+}
