@@ -1,5 +1,9 @@
 import React, { StrictMode } from 'react';
+// eslint-disable-next-line import/extensions
 import { createRoot } from 'react-dom/client';
+import { RouterProvider } from 'react-router-dom';
+
+import router from './router/index.js';
 
 const rootElement = document.getElementById('root');
 
@@ -10,6 +14,6 @@ if (!rootElement) {
 const root = createRoot(rootElement);
 root.render(
   <StrictMode>
-    <div>Hello World</div>
+    <RouterProvider router={router} />
   </StrictMode>,
 );

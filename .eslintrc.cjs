@@ -16,8 +16,8 @@ module.exports = {
   rules: {
     'max-len': ['error', { code: 150 }],
     'import/extensions': ['error', {
-      ts: 'never',
-      tsx: 'never',
+      js: 'always',
+      jsx: 'always',
       json: 'always',
       scss: 'always',
     }],
@@ -42,8 +42,8 @@ module.exports = {
       rules: {
         'max-len': ['error', { code: 150 }],
         'import/extensions': ['error', {
-          ts: 'never',
-          tsx: 'never',
+          js: 'always',
+          jsx: 'always',
           json: 'always',
           scss: 'always',
         }],
